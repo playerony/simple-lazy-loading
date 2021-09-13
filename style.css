@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  color: #ccc;
+  overflow: auto;
+}
+
+body {
+  gap: 1em;
+  padding: 1em;
+  display: grid;
+}
+
+img {
+  max-width: calc(100vw - 2em);
+}
